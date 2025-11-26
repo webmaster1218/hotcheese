@@ -10,6 +10,12 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Hot Cheese | Perros y Hamburguesas",
   description: "Las mejores hamburguesas y perros calientes en Sabaneta, Envigado y Medellín. Ganadores del Festival del Perro.",
+  icons: {
+    icon: '/assets/mascot.png',
+    shortcut: '/assets/mascot.png',
+    apple: '/assets/mascot.png',
+  },
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({

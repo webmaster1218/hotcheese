@@ -84,7 +84,7 @@ export default function Footer() {
                         <div className="flex gap-4">
                         {/* WhatsApp */}
                         <a
-                            href="https://wa.me/573000000000"
+                            href="https://api.whatsapp.com/send/?phone=573052712352&text=Hola%21+Me+gustar%C3%ADa+hacer+un+pedido&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-gray-100 p-3 rounded-full text-gray-600 hover:bg-green-100 hover:text-green-600 transition-all transform hover:-translate-y-1 inline-flex"

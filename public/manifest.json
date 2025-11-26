@@ -1,0 +1,26 @@
+{
+  "name": "Hot Cheese - Perros y Hamburguesas",
+  "short_name": "Hot Cheese",
+  "description": "Las mejores hamburguesas y perros calientes en Sabaneta, Envigado y Medellín. Ganadores del Festival del Perro.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9FAFB",
+  "theme_color": "#FFC107",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/mascot.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/mascot.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["food", "restaurant", "delivery"],
+  "lang": "es"
+}
