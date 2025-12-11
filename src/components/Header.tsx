@@ -47,12 +47,14 @@ export default function Header() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link
-                            href="#menu"
+                        <a
+                            href="https://api.whatsapp.com/send/?phone=573148884828&text=Hola%21+Me+gustar%C3%ADa+hacer+un+pedido&type=phone_number&app_absent=0"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-primary text-gray-900 px-6 py-2.5 rounded-full font-bold hover:bg-yellow-400 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all"
                         >
                             ¡Pide Ya!
-                        </Link>
+                        </a>
                     </nav>
 
                     {/* Mobile Menu Button */}
@@ -82,13 +84,15 @@ export default function Header() {
                             </Link>
                         ))}
                         <div className="pt-4">
-                            <Link
-                                href="#menu"
+                            <a
+                                href="https://api.whatsapp.com/send/?phone=573148884828&text=Hola%21+Me+gustar%C3%ADa+hacer+un+pedido&type=phone_number&app_absent=0"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 onClick={() => setIsOpen(false)}
                                 className="block w-full text-center bg-primary text-gray-900 px-6 py-3 rounded-full font-bold hover:bg-yellow-400 transition-colors shadow-md"
                             >
                                 ¡Pide Ya!
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
