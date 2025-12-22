@@ -1,7 +1,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-    const phoneNumber = "573052712352"; // Reemplaza con el número real de Hot Cheese
+    const phoneNumber = "573148884828"; // Reemplaza con el número real de Hot Cheese
     const message = "Hola! Me gustaría hacer un pedido";
 
     const handleClick = () => {

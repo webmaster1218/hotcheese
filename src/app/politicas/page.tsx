@@ -111,7 +111,7 @@ export default function PoliticasPage() {
                                 Contactar por Email
                             </a>
                             <a
-                                href="https://api.whatsapp.com/send/?phone=573052712352"
+                                href="https://api.whatsapp.com/send/?phone=573148884828"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 text-white border border-white/20 px-6 py-3 rounded-full font-bold hover:bg-white/20 transition-colors"
