@@ -15,27 +15,32 @@ export const LOCATIONS = [
   {
     name: "Sede Sabaneta",
     address: "Carrera 48 # 76B Sur 50",
-    reference: "Av. Las Vegas por el Euro"
+    reference: "Av. Las Vegas por el Euro",
+    whatsapp: "573108179979"
   },
   {
     name: "Sede Envigado",
     address: "Tv. 34 Sur # 31E 02",
-    reference: "Sobre el Puente de las Flores"
+    reference: "Sobre el Puente de las Flores",
+    whatsapp: "573053978221"
   },
   {
     name: "Sede Cristo Rey",
     address: "Calle 2 Sur #53 - 111",
-    reference: "Frente al Comfama"
+    reference: "Frente al Comfama",
+    whatsapp: "573173043473"
   },
   {
     name: "Sede La 70",
     address: "Carrera 70 #13 - 05",
-    reference: "Frente al Aeroparque Juan Pablo II"
+    reference: "Frente al Aeroparque Juan Pablo II",
+    whatsapp: "573507523803"
   },
   {
     name: "Sede Boyacá • Las Brisas",
     address: "Calle 115 64d 54",
-    reference: "Una cuadra después de la Iglesia San Gregorio Magno"
+    reference: "Una cuadra después de la Iglesia San Gregorio Magno",
+    whatsapp: "573107232552"
   }
 ];
 

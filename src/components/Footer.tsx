@@ -82,26 +82,26 @@ export default function Footer() {
                             Contáctanos
                         </h3>
                         <div className="flex gap-4">
-                        {/* WhatsApp */}
-                        <a
-                            href="https://api.whatsapp.com/send/?phone=573148884828&text=Hola%21+Me+gustar%C3%ADa+hacer+un+pedido&type=phone_number&app_absent=0"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-gray-100 p-3 rounded-full text-gray-600 hover:bg-green-100 hover:text-green-600 transition-all transform hover:-translate-y-1 inline-flex"
-                        >
-                            <MessageCircle size={24} />
-                        </a>
+                            {/* WhatsApp */}
+                            <a
+                                href={`https://wa.me/${LOCATIONS[0].whatsapp}?text=Hola! Me gustaría hacer un pedido`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gray-100 p-3 rounded-full text-gray-600 hover:bg-green-100 hover:text-green-600 transition-all transform hover:-translate-y-1 inline-flex"
+                            >
+                                <MessageCircle size={24} />
+                            </a>
 
-                        {/* Instagram */}
-                        <a
-                            href={BUSINESS_INFO.instagram}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-gray-100 p-3 rounded-full text-gray-600 hover:bg-gradient-to-tr hover:from-yellow-400 hover:to-red-500 hover:text-white transition-all transform hover:-translate-y-1 inline-flex"
-                        >
-                            <Instagram size={24} />
-                        </a>
-                    </div>
+                            {/* Instagram */}
+                            <a
+                                href={BUSINESS_INFO.instagram}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-gray-100 p-3 rounded-full text-gray-600 hover:bg-gradient-to-tr hover:from-yellow-400 hover:to-red-500 hover:text-white transition-all transform hover:-translate-y-1 inline-flex"
+                            >
+                                <Instagram size={24} />
+                            </a>
+                        </div>
 
                         {/* Métodos de pago */}
                         <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
